@@ -11,13 +11,55 @@ h1 {
 	margin: 15px;
 	text-align: center;
 }
+#chicken {
+    width: 33%;
+    position: relative;
+   }
+   #beef {
+    width: 33%;
+    position: relative;
+   }
+   #sushi {
+    width: 33%;
+    position:relative;
+   }
 
-div.subjecttitle {
+#chickentitle {
    	
-   	position: relative;
-    left: 100px;
+   	position:absolute;
+    background: red;
+    border: 1px solid black;
+    text-align: center;
+    
+    right: 22px;
+     overflow: hidden;
+     padding-right: 15px;
+
    	
    }
+   #beeftitle {
+    
+    position:absolute;
+    background: green;
+    border: 1px solid black;
+    text-align: center;
+    top:0;
+    right: 0;
+    overflow: hidden;
+    
+   }
+   #sushititle {
+    
+    position:absolute;
+    background: orange;
+    border: 1px solid black;
+    text-align: center;
+    top:0;
+    right: 0;
+     overflow: hidden;
+    
+   }
+  
     p {
   	border: 1px solid black;
   	background: gray;
@@ -31,15 +73,7 @@ div.subjecttitle {
     padding-left: 15px;
   }
   
-   #rice {
-   	width: 33%;
-   }
-   #spagetti {
-   	width: 33%;
-   }
-   #soup {
-   	width: 33%;
-   }
+   
 
 
    @media(min-width: 992px) {
